@@ -4,7 +4,7 @@
     "jsxImportSource": "preact"
   },
   "tasks": {
-    "dev": "deno run --watch -A main.tsx"
+    "dev": "deno run --watch -A src/main.tsx"
   },
   "imports": {
     "@std/http": "jsr:@std/http@^1.1.1",

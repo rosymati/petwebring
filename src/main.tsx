@@ -28,7 +28,9 @@ const notFound = (domain: string) =>
   );
 
 const client = new Elysia()
-  .get("/style.css", ({ request }) => serveFile(request, "style.css"))
+  .get("/style.css", ({ request }) =>
+    serveFile(request, import.meta.dirname + "/style.css"),
+  )
   .get("/", () => {
     return new Response(`<!DOCTYPE html>${renderToString(<Home />)}`, {
       headers: { "Content-Type": "text/html; charset=utf-8" },
