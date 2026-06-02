@@ -63,4 +63,4 @@ const app = new Elysia()
     return redirect(`https://${random(domain)}`, 302);
   });
 
-Deno.serve(app.fetch);
+Deno.serve({ port: 4869 }, app.fetch);
