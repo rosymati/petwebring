@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "preact"
+  },
+  "tasks": {
+    "dev": "deno run --watch -A main.tsx"
+  },
+  "imports": {
+    "@std/http": "jsr:@std/http@^1.1.1",
+    "@std/random": "jsr:@std/random@^0.1.5",
+    "elysia": "npm:elysia@^1.4.28",
+    "preact": "npm:preact@^10.29.2",
+    "preact-render-to-string": "npm:preact-render-to-string@^6.7.0"
+  }
+}
