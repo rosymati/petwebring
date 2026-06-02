@@ -1,9 +1,8 @@
 # .pet webring 🐾
 
-A webring for [`.pet`](https://get.pet) domains. Personal sites, no required
-topic.
+A webring for `.pet` domains. Personal sites, no required topic.
 
-Live at [ring.pet](https://ring.pet).
+Live at [petwebr.ing](https://petwebr.ing).
 
 ## Joining
 
@@ -13,9 +12,9 @@ You need a `.pet` domain with a personal website on it.
    ring homepage, and the next site:
 
    ```html
-   <a href="https://ring.pet/prev/yourdomain.pet">← prev</a>
-   <a href="https://ring.pet">ring.pet</a>
-   <a href="https://ring.pet/next/yourdomain.pet">next →</a>
+   <a href="https://petwebr.ing/prev/yourdomain.pet">← prev</a>
+   <a href="https://petwebr.ing">petwebr.ing</a>
+   <a href="https://petwebr.ing/next/yourdomain.pet">next →</a>
    ```
 
 2. Open a pull request adding your domain to `members.ts`.

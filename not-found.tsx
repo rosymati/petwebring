@@ -28,7 +28,7 @@ export const NotFound = ({ domain }: { domain: string }) => {
       </main>
 
       <footer>
-        <a href="/">ring.pet</a>
+        <a href="/">petwebr.ing</a>
       </footer>
     </Layout>
   );

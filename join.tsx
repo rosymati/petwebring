@@ -10,9 +10,9 @@ export const Join = () => {
         <li>
           Add a webring nav somewhere on your site, it should link to the
           previous site, the ring homepage, and the next site:
-          <pre class="snippet">{`<a href="https://ring.pet/prev/yourdomain.pet">← prev</a>
-<a href="https://ring.pet">ring.pet</a>
-<a href="https://ring.pet/next/yourdomain.pet">next →</a>`}</pre>
+          <pre class="snippet">{`<a href="https://petwebr.ing/prev/yourdomain.pet">← prev</a>
+<a href="https://petwebr.ing">petwebr.ing</a>
+<a href="https://petwebr.ing/next/yourdomain.pet">next →</a>`}</pre>
         </li>
         <li>
           Open a pull request on{" "}
