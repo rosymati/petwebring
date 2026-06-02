@@ -42,7 +42,7 @@ export const Home = () => {
       </main>
 
       <footer>
-        <a href="https://github.com/matildepark/petwebring">source on github</a>
+        <a href="https://github.com/rosymati/petwebring">source on github</a>
       </footer>
     </Layout>
   );

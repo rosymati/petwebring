@@ -16,7 +16,7 @@ export const Join = () => {
         </li>
         <li>
           Open a pull request on{" "}
-          <a href="https://github.com/matildepark/petwebring">GitHub</a>{" "}
+          <a href="https://github.com/rosymati/petwebring">GitHub</a>{" "}
           adding your domain to <code>members.ts</code>.
         </li>
       </ol>
